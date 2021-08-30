@@ -28,7 +28,12 @@ void MainWindow::on_audioButton_clicked()
         //开启录音线程
         _audioThread = new AudioThread(this);  //这里必须传递 this，才会关闭窗口线程
         _audioThread->start();
-        ;
+        //监听线程，设置异常退出的时候要将按钮文字设置回 开始录音
+        connect(_audioThread,&AudioThread::finished,
+                [this]() {
+            _audioThread = nullptr;
+            ui->audioButton->setText("开始录音");
+        });
         //设置按钮文字
         ui->audioButton->setText("结束录音");
     }else {
