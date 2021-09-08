@@ -1,8 +1,11 @@
 ﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#include <SDL2/SDL.h>
 #include <qdebug.h>
+#include <SDL2/SDL.h>
+#include "playthread.h"
+
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -23,15 +26,12 @@ void showVersion() {
     qDebug() << version.major << version.minor << version.patch;
 }
 
+
+
+//点击事件就触发这个函数
+//主线程
 void MainWindow::on_playButton_clicked()
 {
-//    showVersion();
-    //初始化子系统
-    if(SDL_Init(SDL_INIT_AUDIO) < 0) {
-        qDebug() << "SDL_INIT_AUDIO" << SDL_GetError();
-        return;
-    }
-
-    //清除所有子系统
-    SDL_Quit();
+    PlayThread *playThread = new PlayThread();
+    playThread->start();
 }

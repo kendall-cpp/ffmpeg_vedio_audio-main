@@ -281,6 +281,9 @@ debug/moc_mainwindow.cpp: ../record_audio_pro/mainwindow.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtouchdevice.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
+		../record_audio_pro/audiothread.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QThread \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qthread.h \
 		debug/moc_predefs.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/moc.exe
 	D:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\moc.exe $(DEFINES) --include D:/worksplace/qtworkspace/xiaomage/record_audio_pro/build-record_audio_pro-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/debug/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++ -ID:/worksplace/qtworkspace/xiaomage/record_audio_pro/record_audio_pro -ID:/worksplace/qtworkspace/ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore -I. -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -ID:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include ..\record_audio_pro\mainwindow.h -o debug\moc_mainwindow.cpp
@@ -363,6 +366,24 @@ debug/audiothread.o: ../record_audio_pro/audiothread.cpp ../record_audio_pro/aud
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvarlengtharray.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontainerfwd.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qobject_impl.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhash.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmap.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qiodevice.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlocale.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qshareddata.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qset.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer_impl.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QString \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QTime \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QFile \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfile.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfiledevice.h \
 		../../../ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include/libavdevice/avdevice.h \
 		../../../ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include/libavdevice/version.h \
 		../../../ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include/libavutil/version.h \
@@ -507,6 +528,9 @@ debug/main.o: ../record_audio_pro/main.cpp ../record_audio_pro/mainwindow.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtouchdevice.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
+		../record_audio_pro/audiothread.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QThread \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qthread.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
@@ -514,8 +538,6 @@ debug/main.o: ../record_audio_pro/main.cpp ../record_audio_pro/mainwindow.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdesktopwidget.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qguiapplication.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qinputmethod.h \
-		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QThread \
-		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qthread.h \
 		../../../ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include/libavdevice/avdevice.h \
 		../../../ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include/libavdevice/version.h \
 		../../../ffmpeg_home/ffmpeg-4.3.2-2021-02-27-full_build-shared/include/libavutil/version.h \
@@ -660,6 +682,9 @@ debug/mainwindow.o: ../record_audio_pro/mainwindow.cpp ../record_audio_pro/mainw
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtouchdevice.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
+		../record_audio_pro/audiothread.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QThread \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qthread.h \
 		ui_mainwindow.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
@@ -669,6 +694,8 @@ debug/mainwindow.o: ../record_audio_pro/mainwindow.cpp ../record_audio_pro/mainw
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdesktopwidget.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qguiapplication.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qinputmethod.h \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QDialogButtonBox \
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialogbuttonbox.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
@@ -679,10 +706,7 @@ debug/mainwindow.o: ../record_audio_pro/mainwindow.cpp ../record_audio_pro/mainw
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
 		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
-		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
-		../record_audio_pro/audiothread.h \
-		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QThread \
-		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qthread.h
+		D:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\record_audio_pro\mainwindow.cpp
 
 debug/moc_audiothread.o: debug/moc_audiothread.cpp 
