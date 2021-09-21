@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../sdl_player_pcm_home/sdl_player_pcm/mainwindow.h"
+#include "../../sdl_player_pcm2/mainwindow.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
