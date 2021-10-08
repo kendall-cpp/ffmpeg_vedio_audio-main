@@ -27,7 +27,6 @@ void showVersion() {
 }
 
 
-
 //点击事件就触发这个函数
 //主线程
 void MainWindow::on_playButton_clicked()
