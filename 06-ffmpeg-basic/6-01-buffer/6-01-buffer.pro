@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
+    av_demux.c \
     avpacket.c \
     avframe.c
 win32 {
@@ -20,4 +21,5 @@ LIBS += $$PWD/ffmpeg-4.2.1-win32-dev/lib/avformat.lib   \
 
 HEADERS += \
     avpacket.h \
-    avframe.h
+    avframe.h \
+    demux.h
