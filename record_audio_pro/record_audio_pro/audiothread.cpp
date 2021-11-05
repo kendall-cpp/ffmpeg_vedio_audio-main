@@ -15,12 +15,15 @@ extern "C" {
 #include <libavcodec/avcodec.h>
 }
 
+
+//设备名称
 #ifdef Q_OS_WIN
     #define FMT_NAME  "dshow"
     #define DEVICE_NAME  "audio=麦克风阵列 (2- Realtek High Definition Audio)"
     // PCM 文件名
-    #define FILEPATH "D:/lingshengYinShiPin/"
-#else
+    #define FILEPATH "D:/YinShiPin/"
+	
+#else  //macbook
     #define FMT_NAME  "avfoundation"
     #define DEVICE_NAME ":0"
     #define FILENAME "~/out.pcm"

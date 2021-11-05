@@ -17,6 +17,7 @@ extern "C" {
 
 int main(int argc, char *argv[])
 {
+    qDebug() << "main" << QThread::currentThread();
 
     //注册设备 只候注册一次
     avdevice_register_all();
